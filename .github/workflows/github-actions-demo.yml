@@ -17,4 +17,4 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - run: "echo ${{ github.event_name }}"
-    - run: "echo ${{ github.ref_name 
+    - run: "echo ${{ github.ref_name }} "
