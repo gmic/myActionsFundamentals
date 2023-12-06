@@ -14,7 +14,7 @@ on:
 jobs:
   Build:
     name: deploy to staging
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
     - run: "echo ${{ github.event_name }}"
     - run: "echo ${{ github.ref_name }} "
